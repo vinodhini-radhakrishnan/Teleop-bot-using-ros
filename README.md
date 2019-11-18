@@ -52,7 +52,7 @@ The above commands will create a package named teleop_twist_keyboard in the src 
 Now, git clone the publisher code in the teleop_twist_keyboard package
 ```sh
 cd teleop_twist_keyboard
-git clone https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/tree/master/teleop_twist_keyboard
+git clone https://github.com/vinodhini-radhakrishnan/Teleop-bot-using-ros/tree/master/teleop_twist_keyboard
 ```
 While cloning, a tab may appear asking for replacement of package.xml file and Cmakelist.txt file; click on replace option.
 Now the publisher code - teleop_twist_keyboard.py would be inside the teleop_twist_keyboard package.Now again source and build the environment by running the following commands
@@ -66,7 +66,7 @@ Now, the publisher code is ready in the master, its time for us to setup our sub
 In the slave (odroid), git clone the subscriber code in the src folder using the following commands
 ```sh
 cd catkin_ws/src
-git clone https://github.com/Rohini-G/Teleop-controlled-bot-using-ROS/blob/master/subscriberorg.py
+git clone https://github.com/vinodhini-radhakrishnan/Teleop-bot-using-ros/blob/master/subscriberorg.py
 cd catkin_ws
 . ~/catkin_ws/devel/setup.bash
 catkin_make
